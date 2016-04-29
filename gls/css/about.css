@@ -1,0 +1,145 @@
+#top_container
+{
+    margin-top:65px !important;
+}
+.nav-tabs > li
+{
+    text-align: center !important;
+    padding: 00px;
+}
+h4
+{
+    text-align: center;
+}
+.panel-default > .panel-heading 
+{
+    background-color:#195088;
+}
+.panel-title > a
+{
+    color: white !important;
+}
+.icon_pack
+{
+    color: white;
+}
+.glyphicon-chevron-down
+{
+    font-size: 20px;
+    float: right;
+}
+.panel-title
+{
+    height: 30px;
+    line-height: 30px;
+}
+.panel-group
+{
+    margin-bottom: 1px !important;
+}
+.gap-right
+{
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.gap-left
+{
+    width: 314px;
+    height: 215px;
+    margin-left: 10px;
+}
+p
+{
+    text-align: justify;
+}
+#other_1
+{
+    height: 250px;
+    width: 450px;
+}
+.glyphicon glyphicon-hand-right
+{
+    color: #195088 !important;
+}
+@media(max-width:1400px)
+{
+    .accordian1
+    {
+        display: none;
+    }
+}
+@media(max-width:1200px)
+{
+    .nav-tabs > li > a
+    {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: #ddd solid 2px;    
+    border-bottom-color: transparent;
+    }
+    .nav-tabs > li.active > a
+    {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: #ddd solid 2px;
+    }
+    .nav-tabs li:nth-child(4)
+    {
+    clear: both !important;
+    }
+    .accordian1
+    {
+        display: none;
+    }
+}
+@media(max-width:992px)
+{
+    .nav-tabs > li > a
+    {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: #ddd solid 2px;    
+    border-bottom-color: transparent;
+    }
+    .nav-tabs > li.active > a
+    {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: #ddd solid 2px;
+    }
+    .nav-tabs li:nth-child(4)
+    {
+    clear: both !important;
+    }
+     .accordian1
+    {
+        display: none;
+    }
+}
+@media(max-width:768px)
+{
+    .accordian1
+    {
+        display: block;
+        margin-top: 65px;
+    }
+    #top_container
+    {
+        display: none;
+    }
+}
+@media(max-width:480px)
+{
+    top_container
+    {
+        display: none;
+    }
+    .accordian1
+    {
+        display: block;
+    }
+}
