@@ -22,11 +22,11 @@
         #images
         {
             margin-top:-10px; 
-/*            margin-left:15px; */
+/*            margin-left:15px; */ 
             margin-bottom:20px; 
             height:150px; 
 /*            width:260px; */
-            float:left;
+            float:left; 
         }
         #popup{
             position: fixed;
